@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Game Jo\Scripts\Draggable.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\VRCameraUI.cs" />
     <Compile Include="Assets\ZenvaVR\Scripts\FixedTeleportationPodController.cs" />
     <Compile Include="Assets\ZenvaVR\Scripts\CanvasFaceCamera.cs" />
@@ -71,7 +72,10 @@
     <Compile Include="Assets\VR Standard Assets\Scripts\VRTrackingReset.cs" />
     <Compile Include="Assets\ZenvaVR\Scripts\PlayerFixedTeleportationController.cs" />
     <Compile Include="Assets\ZenvaVR\Scripts\VRCalloutController.cs" />
-    <Compile Include="Assets\Game Jo\Scripts\Draggable.cs" />
+    <Compile Include="Assets\Game Jo\Scripts\DelegateExamples.cs" />
+    <Compile Include="Assets\Game Jo\Scripts\PieceController.cs" />
+    <Compile Include="Assets\Game Jo\Scripts\PuzzleController.cs" />
+    <Compile Include="Assets\Game Jo\Scripts\PyramidController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\VR Standard Assets\Shaders\UIOverlay.shader" />
